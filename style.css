@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+
+}
+
+.pai{
+    display: flex;
+}
+
+.coluna-normal{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-reversa{
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+img{
+    max-width:60%;
+    margin:5px;
+}
